@@ -1,0 +1,50 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, "Times New Romans";
+    display: block;
+
+}
+.box {
+    background: url("image_new.png") no-repeat;
+    background-size: 100%;
+    width: 400px;
+    height: 280px;
+    margin: 50px auto;
+    padding: 10px;
+
+}
+
+label {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 4px grey;
+}
+input {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 40px;
+    font-size: 14;
+    text-shadow: 1px 1px 2px grey;
+    background: none;
+    border: none;
+}
+.buttons {
+    margin: 10px auto 24;
+    width: 70px;
+    height: auto;
+}
+#up, #down {
+    box-shadow: 2px 2px 2px rgba(0,0,0,1);
+    border: 1px solid black;
+    border-radius: 3px;
+    background: white;
+    height: 18;
+}
+#up:hover, #down:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
